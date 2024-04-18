@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .form,
+.container .tambahData {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form .button-action,
+.tambahData .button-action {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+input {
+    padding: 10px 40px;
+    border: none;
+}
+
+table tr.table-child {
+    display: flex;
+    flex-direction: row;
+
+}
